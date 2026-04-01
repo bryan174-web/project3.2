@@ -1,0 +1,140 @@
+/*
+
+Student Name: Bryan Sevilla
+Assignment Name: Project 3
+Date: 3/31/2026 */
+*{ 
+    margin: 0px;
+}
+h1{
+	color:#E1D9BC
+}
+#sidebar {
+	/*Strictly Necessary */
+	position:fixed; 
+	height: 100%;
+	width:33%;
+	margin: 0px;  
+
+  
+  background: #ACBAC4; 
+  border-radius: 7px;  
+}
+
+
+#rightSideWrapper {
+	/*Strictly Necessary */
+	width:67%; 
+	float: right;
+
+	/*Aesthetics*/
+	background: #E1D9BC;	
+}
+
+header {
+	/*Strictly Necessary */
+	position: fixed;
+	width: 70%;	
+	height: 100px; /*Adjust the hight to your purposes*/
+	
+	/*Aesthetics*/
+	background: #30364F;
+	border-radius: 7px;
+}
+
+.ContentBox{
+	margin-top: 100px; /*The height of the   header*/
+	display:flex;
+	flex-flow: row wrap;
+} 
+
+main, section, footer {
+    /*Aesthetics*/
+	 background: #F0F0DB; 
+	 border-radius: 7px; 
+	 margin: 5px; 
+	 padding: 20px;
+}
+
+main {
+  /*Strictly Necessary */
+  height: 400px;
+  order: 1;
+  flex: 0 1 100%; 
+	
+}
+
+section {
+  /*Strictly Necessary */
+
+   order: 2;
+   flex: 0 1 100%;
+	
+}
+
+footer {
+  /*Strictly Necessary */
+  order: 3;
+  flex: 0 1 100%;
+	
+}
+
+
+
+h1 {
+  text-align: center;
+  margin-block-end: 2.5rem;
+}
+
+.stock-ticker {
+  font-size: 15px;
+  padding-block: 8px;
+  border-block: 1px solid;
+  overflow: hidden;
+  user-select: none;
+
+  --gap: 20px;
+  display: flex;
+  gap: var(--gap);
+}
+
+.stock-ticker ul {
+  list-style: none;
+  flex-shrink: 0;
+  min-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--gap);
+
+  animation: scroll 20s linear infinite;
+}
+
+.stock-ticker:hover ul {
+  animation-play-state: paused;
+}
+
+@keyframes scroll {
+  to {
+    transform: translateX(calc(-100% - var(--gap)));
+  }
+}
+
+.stock-ticker ul:first-child {
+  /* background-color: yellow; */
+}
+
+.stock-ticker ul:last-child {
+  /* background-color: pink; */
+}
+
+.stock-ticker .company,
+.stock-ticker .price {
+  font-weight: bold;
+}
+
+.stock-ticker .price {
+  margin-inline: 4px;
+}
+
+
