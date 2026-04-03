@@ -9,6 +9,12 @@ Date: 3/31/2026 */
 h1{
 	color:#E1D9BC
 }
+h2{
+  font-family: Geneva, Tahoma, sans-serif
+}
+p{
+  font-family:   Verdana, sans-serif;
+}
 #sidebar {
 	/*Strictly Necessary */
 	position:fixed; 
@@ -20,6 +26,32 @@ h1{
   background: #ACBAC4; 
   border-radius: 7px;  
 }
+
+#sidebar .part1 {
+margin-top:20px;
+}
+
+#sidebar .part2 {
+margin-top:20px;
+}
+
+#sidebar .part3 {
+margin-top:20px;
+}
+
+#sidebar .part4 {
+margin-top:20px;
+
+}
+#sidebar .part4 img {
+    height: 300px;
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+    border: 8px solid #E1D9BC;
+    border-radius: 50%;
+}
+
 
 
 #rightSideWrapper {
@@ -58,7 +90,7 @@ main, section, footer {
 
 main {
   /*Strictly Necessary */
-  height: 400px;
+  
   order: 1;
   flex: 0 1 100%; 
 	
@@ -136,5 +168,4 @@ h1 {
 .stock-ticker .price {
   margin-inline: 4px;
 }
-
 
