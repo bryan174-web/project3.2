@@ -12,52 +12,70 @@ h1{
 h2{
   font-family: Geneva, Tahoma, sans-serif
 }
+h3{
+  text-align: center;
+}
+
 p{
   font-family:   Verdana, sans-serif;
-}
-#sidebar {
-	/*Strictly Necessary */
-	position:fixed; 
-	height: 100%;
-	width:33%;
-	margin: 0px;  
-
-  
-  background: #ACBAC4; 
-  border-radius: 7px;  
+  text-align:center;
 }
 
-#sidebar .part1 {
+
+.ContentBox .part1 {
 margin-top:20px;
 }
 
-#sidebar .part2 {
+.ContentBox .part2 {
 margin-top:20px;
 }
 
-#sidebar .part3 {
+.ContentBox .part3 {
 margin-top:20px;
 }
 
-#sidebar .part4 {
+#rightSideWrapper.part4 {
 margin-top:20px;
 
 }
-#sidebar .part4 img {
-    height: 300px;
-    width: 300px;
+#rightSideWrapper .part4 img {
+    height: 100px;
+    width: 100px;
     display: block;
     margin: 0 auto;
     border: 8px solid #E1D9BC;
     border-radius: 50%;
+    float:left;
+    margin-top : 35px;
+    margin-left: 50px;
+}
+#rightSideWrapper h1 {
+
 }
 
+#rightSideWrapper ul {
 
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 20px; /* space between links */
+  text-align: center;
+}
+
+#rightSideWrapper ul li {
+
+}
+
+#rightSideWrapper ul li a{
+  text-decoration : none;
+
+}
 
 #rightSideWrapper {
 	/*Strictly Necessary */
-	width:67%; 
-	float: right;
+	width:100%; 
+
 
 	/*Aesthetics*/
 	background: #E1D9BC;	
@@ -65,20 +83,40 @@ margin-top:20px;
 
 header {
 	/*Strictly Necessary */
-	position: fixed;
-	width: 70%;	
-	height: 100px; /*Adjust the hight to your purposes*/
-	
-	/*Aesthetics*/
+	width: 100%;	
+	height: 200px; /*Adjust the hight to your purposes*/
+	  display: flex;
+  align-items: center;       /* vertically centers everything */
+  justify-content: space-between; /* spaces logo, title, and menu evenly */
+  padding: 10px 20px;
 	background: #30364F;
 	border-radius: 7px;
+  color:#E1D9BC
 }
 
 .ContentBox{
-	margin-top: 100px; /*The height of the   header*/
+	margin-top: 25px; /*The height of the   header*/
 	display:flex;
 	flex-flow: row wrap;
 } 
+
+/* #Gallery_1 {
+  justify-content: center;
+  display:flex;
+  flex-wrap: wrap; 
+
+}
+#Gallery_1 p,img{
+  display:block;
+
+} */
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%; /* Optional: defining a width is recommended */
+}
+
 
 main, section, footer {
     /*Aesthetics*/
@@ -108,7 +146,10 @@ footer {
   /*Strictly Necessary */
   order: 3;
   flex: 0 1 100%;
-	
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%; 
 }
 
 
