@@ -3,60 +3,57 @@
 Student Name: Bryan Sevilla
 Assignment Name: Project 3
 Date: 3/31/2026 */
-*{ 
-    margin: 0px;
+* {
+  margin: 0px;
 }
-h1{
-	color:#E1D9BC
+h1 {
+  color: #e1d9bc;
 }
-h2{
-  font-family: Geneva, Tahoma, sans-serif
+h2 {
+  font-family: Geneva, Tahoma, sans-serif;
 }
-h3{
+h3 {
   text-align: center;
 }
 
-p{
-  font-family:   Verdana, sans-serif;
-  text-align:center;
+p {
+  font-family: Verdana, sans-serif;
+  text-align: center;
 }
 a:hover {
-  color: #25BBAE;
+  color: #25bbae;
 }
 
-.ContentBox .part1 {
-margin-top:20px;
+.contentbox .part1 {
+  margin-top: 20px;
 }
 
-.ContentBox .part2 {
-margin-top:20px;
+.contentbox .part2 {
+  margin-top: 20px;
 }
 
-.ContentBox .part3 {
-margin-top:20px;
+.contentbox .part3 {
+  margin-top: 20px;
 }
 
 #rightSideWrapper.part4 {
-margin-top:20px;
-
+  margin-top: 20px;
 }
 #rightSideWrapper .part4 img {
-    height: 200px;
-    width: 200px;
-    display: block;
-    margin: 0 auto;
-    border: 8px solid #E1D9BC;
-    border-radius: 50%;
-    float:left;
-    margin-top : 35px;
-    margin-left: 50px;
+  height: 200px;
+  width: 200px;
+  display: block;
+  margin: 0 auto;
+  border: 8px solid #e1d9bc;
+  border-radius: 50%;
+  float: left;
+  margin-top: 35px;
+  margin-left: 50px;
 }
 #rightSideWrapper h1 {
-
 }
 
 #rightSideWrapper ul {
-
   list-style: none;
   padding: 0;
   margin: 0;
@@ -66,88 +63,92 @@ margin-top:20px;
 }
 
 #rightSideWrapper ul li {
-  padding-left : 20px
+  padding-left: 20px;
 }
 
-#rightSideWrapper ul li a{
-  text-decoration : none;
-  
+#rightSideWrapper ul li a {
+  text-decoration: none;
 }
 
 #rightSideWrapper {
-	/*Strictly Necessary */
-	width:100%; 
+  /*Strictly Necessary */
+  width: 100%;
 
-
-	/*Aesthetics*/
-	background: #E1D9BC;	
+  /*Aesthetics*/
+  background: #e1d9bc;
 }
 
 header {
-	/*Strictly Necessary */
-	width: 100%;	
-	height: 300px; /*Adjust the hight to your purposes*/
-	  display: flex;
-  align-items: center;       /* vertically centers everything */
+  /*Strictly Necessary */
+  width: 100%;
+  height: 300px; /*Adjust the hight to your purposes*/
+  display: flex;
+  align-items: center; /* vertically centers everything */
   justify-content: space-between; /* spaces logo, title, and menu evenly */
   padding: 10px 20px;
-	background: #30364F;
-	border-radius: 7px;
-  color:#E1D9BC
+  background: #30364f;
+  border-radius: 7px;
+  color: #e1d9bc;
 }
 
-.ContentBox{
-	margin-top: 25px; /*The height of the   header*/
-	display:flex;
-	flex-flow: row wrap;
-} 
+.contentbox {
+  margin-top: 25px; /*The height of the   header*/
+  display: flex;
+  flex-flow: row wrap;
+}
 
+#Gallery_1 p {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
 
+#Gallery_1 img {
+  width: 700px;
+  border: 5px solid #25bbae;
+  margin-bottom: 5px;
+}
 
 img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%; 
+  width: 50%;
   border: 10px solid rgb(64, 128, 247);
 }
 
-
-main, section, footer {
-    /*Aesthetics*/
-	 background: #F0F0DB; 
-	 border-radius: 7px; 
-	 margin: 5px; 
-	 padding: 20px;
+main,
+section,
+footer {
+  /*Aesthetics*/
+  background: #f0f0db;
+  border-radius: 7px;
+  margin: 5px;
+  padding: 20px;
 }
 
 main {
   /*Strictly Necessary */
-  
+
   order: 1;
-  flex: 0 1 100%; 
-	
+  flex: 0 1 100%;
 }
 
 section {
   /*Strictly Necessary */
 
-   order: 2;
-   flex: 0 1 100%;
-	
+  order: 2;
+  flex: 0 1 100%;
 }
 
 footer {
   /*Strictly Necessary */
   order: 3;
   flex: 0 1 100%;
-   display: block;
+  display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%; 
+  width: 50%;
 }
-
-
 
 h1 {
   text-align: center;
