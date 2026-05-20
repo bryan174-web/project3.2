@@ -50,8 +50,6 @@ a:hover {
   margin-top: 35px;
   margin-left: 50px;
 }
-#rightSideWrapper h1 {
-}
 
 #rightSideWrapper ul {
   list-style: none;
@@ -97,12 +95,12 @@ header {
   flex-flow: row wrap;
 }
 
-#Gallery_1 p {
+#gallery_1 p {
   padding-top: 5px;
   padding-bottom: 5px;
 }
 
-#Gallery_1 img {
+#gallery_1 img {
   width: 700px;
   border: 5px solid #25bbae;
   margin-bottom: 5px;
